@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StudySpot UQ - Map</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <h1 class="page-title">StudySpot UQ</h1>
+
+  <main class="app-shell">
+    <section class="phone">
+      <header class="phone-header">
+        <a class="menu-icon" href="index.html">☰</a>
+        <span class="phone-title">Campus Map</span>
+        <a href="filters.html">🔍</a>
+      </header>
+
+      <div class="phone-content">
+        <p class="screen-label">Map Screen</p>
+
+        <a class="search-bar" href="filters.html">Search building, room, or amenity...</a>
+
+        <div class="row-between" style="margin-bottom: 12px;">
+          <span class="pill green">🟢 Available</span>
+          <span class="pill orange">🟠 Busy</span>
+          <span class="pill red">🔴 Full</span>
+        </div>
+
+        <div class="map-box">
+          <div class="building b1">Central Library</div>
+          <div class="building b2">Biological Sciences (UQ Print)</div>
+          <div class="building b3">Dorothy Hill (Engineering)</div>
+          <div class="building b4">Law Library</div>
+
+          <a class="map-pin pin-orange pin-1" href="details.html">1</a>
+          <a class="map-pin pin-red pin-2" href="details.html">2</a>
+          <a class="map-pin pin-green pin-3" href="details.html">3</a>
+          <a class="map-pin pin-blue pin-4" href="details.html">4</a>
+
+          <div class="map-preview-card">
+            <p class="map-preview-title">Central Library Level 3</p>
+            <div class="mini-stat-row">
+              <span class="mini-stat">🟠 Moderate</span>
+              <span class="mini-stat">🔈 Quiet</span>
+              <span class="mini-stat">🔌 Charging</span>
+              <span class="mini-stat">❄️ AC</span>
+            </div>
+          </div>
+        </div>
+
+        <a class="secondary-button" href="filters.html">Open Filters</a>
+        <a class="primary-button" href="details.html">View Selected Space</a>
+      </div>
+
+      <nav class="bottom-nav">
+        <a class="nav-item" href="index.html">🏠<br />Home</a>
+        <a class="nav-item active" href="map.html">🗺️<br />Map</a>
+        <a class="nav-item" href="capacity.html">📊<br />List</a>
+        <a class="nav-item" href="profile.html">⚙️<br />More</a>
+      </nav>
+    </section>
+  </main>
+</body>
+</html>
